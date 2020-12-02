@@ -1,0 +1,36 @@
+.menu-contact-ft {
+  margin-left: auto;
+  margin-bottom: 60px;
+  margin-block-start: 0em;
+  padding: 0;
+
+  @media screen and(min-width:1200px) {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+}
+
+.contact-item {
+  padding-bottom: 9px;
+}
+
+.link-ft {
+  display: inline-block;
+  color: $text-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address {
+  color: $hero-text;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}

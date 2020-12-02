@@ -1,0 +1,140 @@
+$primary-text-color: #212121;
+$text-color: #757575;
+$accent-color: #2196f3;
+$primary-bgc: #e5e5e5;
+$section-bgc: #2f303a;
+$header-bgc: #ffffff;
+$footer-bgc: #2f303a;
+$hero-text: #ffffff;
+$button-bg-hover: #188ce8;
+$bg-team: #f5f4fa;
+$border: #eeeeee;
+$icon-color: #afb1b8;
+$black: #000000;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+}
+
+a {
+  color: $primary-text-color;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: $accent-color;
+  transition: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+.section {
+  padding-top: 60px;
+  // padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.section-doin {
+  display: none;
+  padding-top: 0;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  display: block;
+}
+
+.line {
+  border-bottom: 1px solid #ececec;
+}
+
+.icon-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-antenna {
+  background-size: contain;
+  background-position: center;
+  background-color: $bg-team;
+}
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.icon-instagram {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-twitter {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-facebook {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-linkedin {
+  width: 20px;
+  height: 20px;
+}
