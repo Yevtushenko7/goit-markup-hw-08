@@ -500,7 +500,7 @@ img {
 
 @media screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .section-bg-hero {
-    background-image: url("../../../img/hero/imgherodeck@2x.jpg");
+    background-image: url("../img/hero/imgherodeck@2x.jpg");
   }
 }
 
@@ -1014,6 +1014,7 @@ img {
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-bottom: 30px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1636,13 +1637,15 @@ img {
           transition-duration: 250ms;
 }
 
-.card:nth-last-child(-n + 1) {
-  margin-bottom: 0;
-}
-
 .card-container {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 1199px) {
+  .card:nth-last-child(-n + 1) {
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {

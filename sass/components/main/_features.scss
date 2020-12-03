@@ -7,10 +7,6 @@
   justify-content: space-between;
   align-items: center;
 
-  // & .list-box + .list-box {
-  //   padding-left: 30px;
-  // }
-
   @media screen and(min-width:768px) {
     display: flex;
     flex-wrap: wrap;
