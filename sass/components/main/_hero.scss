@@ -18,24 +18,49 @@
 
   @media screen and (min-resolution: 192dpi),
     screen and(min-resolution: 2dppx) {
-    background-image: url("../img/hero/imgheromob@2x.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/imgheromob@2x.jpg");
   }
 
   @media screen and(min-width:481px) {
-    background-image: url("../img/hero/imgherotabl.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/imgherotabl.jpg");
 
     @media screen and (min-resolution: 192dpi),
       screen and(min-resolution: 2dppx) {
-      background-image: url("../img/hero/imgherotabl@2x.jpg");
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../img/hero/imgherotabl@2x.jpg");
     }
   }
 
   @media screen and(min-width:769px) {
-    background-image: url("../img/hero/imgherodeck.jpg");
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+      ),
+      url("../img/hero/imgherodeck.jpg");
 
     @media screen and (min-resolution: 192dpi),
       screen and(min-resolution: 2dppx) {
-      background-image: url("../img/hero/imgherodeck@2x.jpg");
+      background-image: linear-gradient(
+          to right,
+          rgba(47, 48, 58, 0.4),
+          rgba(47, 48, 58, 0.4)
+        ),
+        url("../img/hero/imgherodeck@2x.jpg");
     }
   }
 

@@ -279,7 +279,7 @@ img {
 
 @media screen and (min-width: 1200px) {
   .menu-list.current::after {
-    bottom: -168%;
+    bottom: -173%;
   }
 }
 
@@ -422,6 +422,12 @@ img {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .link {
+    font-size: 14px;
+  }
+}
+
 .mail {
   margin-top: 60px;
 }
@@ -472,31 +478,36 @@ img {
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .section-bg-hero {
-    background-image: url("../img/hero/imgheromob@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/imgheromob@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/imgheromob@2x.jpg");
   }
 }
 
 @media screen and (min-width: 481px) {
   .section-bg-hero {
-    background-image: url("../img/hero/imgherotabl.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/imgherotabl.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/imgherotabl.jpg");
   }
 }
 
 @media screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .section-bg-hero {
-    background-image: url("../img/hero/imgherotabl@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/imgherotabl@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/imgherotabl@2x.jpg");
   }
 }
 
 @media screen and (min-width: 769px) {
   .section-bg-hero {
-    background-image: url("../img/hero/imgherodeck.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/imgherodeck.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/imgherodeck.jpg");
   }
 }
 
 @media screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .section-bg-hero {
-    background-image: url("../img/hero/imgherodeck@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../img/hero/imgherodeck@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../img/hero/imgherodeck@2x.jpg");
   }
 }
 
